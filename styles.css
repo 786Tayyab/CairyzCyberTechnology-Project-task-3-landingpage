@@ -1,0 +1,224 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #1aff1a;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 4px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    font-size: 20px;
+}
+
+.afheader {
+    background-image: url('image/images.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.afheader h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.features {
+    background-color: #fff;
+    padding: 80px 0;
+    text-align: center;
+    border: 1px solid #1aff1a;
+}
+
+.features h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #1aff1a;
+}
+.features h2:hover {
+    border: 1px solid #1aff1a;
+}
+.feature {
+    margin-bottom: 40px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #33ff33;
+    background-color: #ccffcc;
+}
+.feature h3:hover {
+    padding: 5px;
+    border: 1px solid #1aff1a;
+}
+.feature p {
+    text-align: left;
+    background-color: #b3ffb3;
+}
+.feature p:hover {
+    padding: 5px;
+    border: 1px solid #1aff1a;
+}
+
+.about {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #e6ffe6;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #1aff1a;
+}
+.about h2:hover {
+    border: 1px solid #1aff1a;
+}
+.about .discription {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.about h3 {
+    color: #33ff33;
+}
+.about h3:hover {
+    font-size: 24px;
+}
+
+.about-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about-image img {
+    max-width: 50%;
+    height: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+.customerreviw {
+    background-color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.customerreviw h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px green;
+
+}
+
+.customerreviw blockquote {
+    margin-bottom: 40px;
+}
+
+.customerreviw blockquote p {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.customerreviw blockquote footer {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.contact {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #e6ffe6;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #1aff1a;
+}
+
+.contact form button {
+    background-color: #1aff1a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.contact form button:hover {
+    background-color: green;
+}
+
+footer {
+    background-color: #1aff1a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
